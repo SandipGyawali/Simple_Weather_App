@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.search-bar {
+  text-align: center;
+}
+
+/* Style the search field */
+input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 25px;
+  outline: none;
+  margin-top: 30px;
+  width: 500px;
+  /* Adjust as needed */
+}
+
+
+/* Style the submit button */
+button {
+  padding: 10px;
+  color: black;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  position: relative;
+  top: 20px;
+  right: 25px;
+  transform: translate(-50%, -50%);
+}
+
+
+.data {
+  width: 900px;
+  height: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightslategrey;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.location-name{
+  text-align: center;
+  font-weight: 520;
+  font-size: 33px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.fa-solid{
+  font-size: 50px;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  width: 200px;
+  height : auto;
+}
+
+
+.temp{
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+  padding: 15px
+}
+
+.city{
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  margin : 0;
+  padding: 15px;
+}
+
+.sub-img{
+    width: 100px;
+    height: auto;
+}
+
+.sub-img{
+  margin-left: 5px;
+}
+
+.humidity{
+  font-size: 25px;
+  color: #fff;
+  margin-left: 30px;
+  margin: 0;
+  text-align: center;
+}
+
+.details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+p{
+  font-size: 25px;
+  margin: 0;
+  color: #fff;
+}
+
+.wind, .pressure{
+  font-size: 25px;
+  color: #fff;
+  margin-left: 30px;
+  margin: 0;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 955px) {
+  .data{
+    width: 750px;
+  }
+
+}
+
+@media screen and (max-width : 820px){
+  .data{
+    width: 600px;
+  }
+  input[type=text]{
+    width: 350px;
+  }
+
+}
+
+@media screen and (max-width: 660px){
+  .data{
+    width: 400px;
+  }
+  input[type=text]{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .data{
+    width: 300px;
+  } 
+
+  .head-weather-img{
+    width: 150px;
+  }
+  
+  input[type=text]{
+    width: 200px;
+  }
+
+  .search-bar{
+    text-align: center;
+  }
+
+  .third-img{
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .sub-img{
+    width: 85px;
+    height: auto;
+  }
+
+}

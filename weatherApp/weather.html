@@ -1,0 +1,60 @@
+<!DOCTYPE HTMl>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="weather.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+</head>
+  <body>
+    <div class="search-bar">
+      <form class="search-box">
+        <input type="text" placeholder="Search Location.." name="search" />
+        <button type="submit" class="search-icon">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+    </div>
+
+    <!-- the location name is written right below this -->
+    <h1 class="location-name"></h1>
+
+    <div class="data">
+      <!-- box which shows the temperature -->
+      <div class="box Temp">
+        <div class="temp-data">
+            <img src="cloudy.png" class="head-weather-img">
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+            <div class="details">
+                <div class="col">
+                    <img src="humidity.png" class="sub-img">
+                    <div class="humidity"></div>
+                    <p>Humidity</p>
+                </div>
+            
+
+            <div class="col">
+                <img src="wind.png" class="sub-img">
+                <div class="wind"></div>
+                <p>Wind Speed</p>
+            </div>
+
+            <div class="col">
+              <img src="thermometer.png" class="sub-img third-img">
+              <div class="pressure"></div>
+              <p>Pressure</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+</div>
+
+    <script src="weather.js"></script>
+  </body>
+</html>
