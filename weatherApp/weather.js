@@ -85,14 +85,14 @@ function iconWeather(data){
   let icon = document.querySelector(".head-weather-img");
   console.log(data.weather[0].main);
   if(data.weather[0].main == "Clear"){
-    icon.src = "sun.png";
+    icon.src = "Images/sun.png";
   }else if(data.weather[0].main == "Haze"){
-    icon.src = "haze.png";
+    icon.src = "Images/haze.png";
   }else if(data.weather[0].main == "Rain"){
-    icon.src = "rain.png";
+    icon.src = "Images/rain.png";
   }else if(data.weather[0].main == "Clouds"){
-    icon.src = "cloudy.png";
+    icon.src = "Images/cloudy.png";
   }else if(data.weather[0].main = "Fog"){
-    icon.src = "fog.png";
+    icon.src = "Images/fog.png";
   }
 }
